@@ -1,4 +1,4 @@
 export const environment = {
-  url: 'http://localhost:8000/api/',
-  production: true
+  url: "https://avance-matricula-backend.herokuapp.com/api/",
+  production: true,
 };
