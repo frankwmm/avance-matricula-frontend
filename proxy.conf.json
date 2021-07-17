@@ -1,6 +1,6 @@
 {
   "/api/*": {
-    "target": "https://avance-matricula-back.herokuapp.com/",
+    "target": "https://avance-matricula-back.herokuapp.com/api/",
     "secure": true,
     "logLevel": "debug"
   }
