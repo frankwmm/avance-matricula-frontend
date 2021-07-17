@@ -3,7 +3,7 @@
 // The list of file replacements can be found in `angular.json`.
 
 export const environment = {
-  url: "https://avance-matricula-backend.herokuapp.com/api/",
+  url: "https://avance-matricula-back.herokuapp.com/api/",
   production: false,
 };
 
