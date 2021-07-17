@@ -6,10 +6,8 @@ const app = express();
 app.use(express.static(__dirname + "/dist/argon-dashboard-angular"));
 
 // Send all requests to index.html
-app.get("/*", function (req, res) {
-  res.sendFile(
-    path.join(__dirname + "/dist/argon-dashboard-angular/index.html")
-  );
+app.get("*", function (req, res) {
+  res.sendFile(path.join(__dirname + "/public/index.html"));
 });
 
 // default Heroku port 5000
