@@ -15,7 +15,7 @@ export class LoginService {
   httpHeaders = {
     headers: new HttpHeaders({
       'Access-Control-Allow-Origin':
-        'https://avance-matricula-back.herokuapp.com/login',
+        'https://avance-matricula-back.herokuapp.com/login/',
       'Accept': 'application/json',
       'Content-Type': 'application/json',
     }),

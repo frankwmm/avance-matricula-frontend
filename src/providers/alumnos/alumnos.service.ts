@@ -13,7 +13,7 @@ export class AlumnosService {
   httpHeaders = {
     headers: new HttpHeaders({
       'Access-Control-Allow-Origin':
-        'https://avance-matricula-back.herokuapp.com/api/listaAlumnos',
+        'https://avance-matricula-back.herokuapp.com/api/listaAlumnos/',
       'Accept': 'application/json',
       'Content-Type': 'application/json',
       'Authorization': `Bearer ${localStorage.getItem('accessToken')}`
